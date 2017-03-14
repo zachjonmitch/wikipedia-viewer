@@ -1,0 +1,59 @@
+body {
+    background-color: #092B40;
+    font-family: Lucida;
+    font-size: 20px;
+}
+
+.random a {
+    color: white;
+    text-decoration: none;
+}
+
+.random {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    margin: 300px auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  
+}
+
+input[type=text] {
+    width: 175px;
+    height: 35px;
+    color: white;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border: 3px solid #D96F32;
+    background: #092B40;
+    border-radius: 20px;
+    position: absolute;
+    margin: 360px auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+input[type=text]:focus {
+    width: 22%;
+    outline: none;
+}
+
+.text {
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    margin: 435px auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  
+}
+
+.wiki_article {
+    height: 500px;
+    background-color: black;
+    display: block;
+}
